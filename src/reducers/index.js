@@ -42,7 +42,7 @@ const initialCalendarState = {
         dinner: null
     }
 };
-export const calendar = (state = initialCalendarState, action) => {
+const calendar = (state = initialCalendarState, action) => {
     const {
         day,
         recipe,
@@ -69,3 +69,4 @@ export const calendar = (state = initialCalendarState, action) => {
             return state;
     }
 };
+export default calendar;
